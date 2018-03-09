@@ -13,7 +13,7 @@ indexRoutes = require("./routes/index"),
 methodOverride=require("method-override"),
 flash=require("connect-flash"),
 mongoose=require("mongoose");
-mongoose.connect("mongodb://localhost/yelpcamp");
+mongoose.connect("mongodb://samihashehatta:SAM3000sam@ds163418.mlab.com:63418/yelpcampsamiha");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
 app.set("view engine","ejs");
